@@ -1,0 +1,70 @@
+.root{
+    -fx-background-color: #282828;
+    -fx-font-size: 20px;
+}
+.button{
+    -fx-text-alignment: center;
+    -fx-padding: 17px;
+    -fx-min-width: 60px;
+    -fx-min-height: 60px;
+    -fx-background-color: #AB3333;
+    -fx-background-radius: 50%;
+    -fx-text-fill: #fff;
+}
+.button:hover{
+    -fx-padding: 17px;
+    -fx-background-color: #AB4642;
+}
+.home_button{
+    -fx-spacing: 20px;
+    -fx-alignment: center;
+    -fx-min-width: 130px;
+    -fx-min-height: 60px;
+    -fx-background-radius: 8px;
+    -fx-padding: 17px;
+    -fx-text-fill: #FFFFFF;
+    -fx-background-color: #AB4642;
+
+}
+.home_button:hover{
+    -fx-padding: 17px;
+    -fx-background-radius: 10px;
+
+}
+.login_button{
+    -fx-text-alignment: center;
+    -fx-min-width: 60px;
+    -fx-min-height: 60px;
+    -fx-background-radius: 5px;
+    -fx-padding: 15px;
+    -fx-text-fill: #FFFFFF;
+    -fx-background-color: #AB4642;
+}
+.login_button:hover{
+    -fx-padding: 15px;
+    -fx-text-fill: #000000;
+    -fx-background-color: #ab6666;
+}
+.text-field{
+    -fx-text-alignment: center;
+    -fx-min-width: 180px;
+    -fx-max-width: 180px;
+    -fx-cell-size: 200px;
+}
+.tran{
+    -fx-padding: 2px;
+    -fx-text-alignment:center;
+    -fx-min-height: 70px;
+}
+.label_stoke{
+    -fx-min-width: 180px;
+    -fx-text-alignment: center;
+    -fx-font-size: 18px;
+}
+.label{
+   -fx-min-width: 120px;
+    -fx-font-weight: bold;
+    -fx-font-family: "Arial Black";
+    -fx-padding: 15px;
+    -fx-text-fill: #ffbbc8;
+}
