@@ -1,0 +1,35 @@
+
+.root{
+    -fx-background-image: url("background.png");
+    -fx-background-size: 600 300;
+    -fx-background-repeat: none;
+}
+.label{
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+
+}
+
+.button{
+    -fx-background-color:transparent;
+    -fx-border-color: #25ff64;
+    -fx-border-radius:50px;
+    -fx-font-size: 15px;
+
+    /*  -fx-background-size:150,200;
+      -fx-text-fill: #fff;
+      -fx-font-size: 100px;
+    /*  -fx-min-width: 150px;
+      -fx-min-height: 200px;*/
+      }
+.button:hover{
+    -fx-background-size:100,200;
+    -fx-border-color: #11c7ff;
+    -fx-text-fill: #fff;
+
+}
+.score{
+    -fx-text-fill: #fff;
+    -fx-font-size: 20px;
+
+}
